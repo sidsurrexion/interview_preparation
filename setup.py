@@ -5,12 +5,12 @@ from setuptools import find_packages
 
 setup(
     name='reactor',
-    version='0.1.0',
+    version='0.1.1',
     url='https://github.com/sidsurrexion/i-prep',
 
     author='sidsurrexion',
     author_email='sidsurrexion@gmail.com',
-
+    packages = ['src'],
     description='Code preparation material',
 
     classifiers=[
