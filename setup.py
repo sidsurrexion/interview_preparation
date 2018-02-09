@@ -4,8 +4,8 @@ from setuptools import setup
 from setuptools import find_packages
 
 setup(
-    name='code-preparation',
-    version='0.1.1',
+    name='code_reactor',
+    version='0.1.2',
     url='https://github.com/sidsurrexion/i-prep',
 
     author='sidsurrexion',
