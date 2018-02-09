@@ -10,7 +10,7 @@ setup(
 
     author='sidsurrexion',
     author_email='sidsurrexion@gmail.com',
-    packages=find_packages(include=['src']),
+    packages=['src'],
 
     description='Code preparation material',
 
