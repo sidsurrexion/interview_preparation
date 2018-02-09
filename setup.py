@@ -4,13 +4,13 @@ from setuptools import setup
 from setuptools import find_packages
 
 setup(
-    name='code_reactor',
-    version='0.1.2',
+    name='reactor',
+    version='0.1.0',
     url='https://github.com/sidsurrexion/i-prep',
 
     author='sidsurrexion',
     author_email='sidsurrexion@gmail.com',
-    packages=['src'],
+    packages=['i-prep'],
 
     description='Code preparation material',
 
