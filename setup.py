@@ -10,7 +10,6 @@ setup(
 
     author='sidsurrexion',
     author_email='sidsurrexion@gmail.com',
-    packages=['i-prep'],
 
     description='Code preparation material',
 
