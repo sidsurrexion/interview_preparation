@@ -7,6 +7,10 @@ def check_if_seq_exists(input_string, word):
             count += 1
     return count == len(word)
 
+
+def init_method():
+    pass
+
 q = int(input().strip())
 for i in range(q):
     string = input().strip()
