@@ -11,3 +11,7 @@ def minimum_coin_change(total_cost, coins):
                 if div + c[i][j % coins[i]] < c[i-1][j]:
                     c[i][j] = div + c[i][j % coins[i]]
     return c[len(coins) - 1][len(total_cost)]
+
+
+def init_change():
+    pass
