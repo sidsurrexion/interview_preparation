@@ -12,7 +12,6 @@ class Edge(object):
     def __init__(self, source, destination, weight):
         self.source = source
         self.destination = destination
-        self.weight = weight
 
     def get_other_end(self, vertex):
         if vertex == self.source:
